@@ -1,0 +1,21 @@
+{
+    "components": ["FE", "CR", "NI", "VA" ],
+    "phases": ["FCC_A1", "SIGMA"],
+    "conditions": {
+	"P": 101325,
+	"T": [
+			  1073, 1073
+	]
+                  },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values":   [
+[["FCC_A1", ["FE","NI"], [0.664618869496799, 0.133758869496799]], ["SIGMA",["FE","NI"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.609488942831208, 0.183888942831208]], ["SIGMA",["FE","NI"],[null, null]]]
+
+    ],
+	"reference": "Expt., Hertzman et al.",
+	"comment": "Figure 9."
+}
+
+

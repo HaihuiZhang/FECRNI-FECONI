@@ -1,0 +1,40 @@
+{
+    "components": ["FE", "CR", "NI", "VA" ],
+    "phases": ["FCC_A1","BCC_A2", "SIGMA"],
+    "conditions": {
+	"P": 101325,
+	"T": [
+			  1073, 1073, 1073, 1073, 1073, 1073,1073, 1073, 1073, 1073, 1073, 1073, 1073, 1073, 1073, 1073, 1073, 1073, 1073, 1073, 1073
+	]
+                  },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values":   [
+	[["FCC_A1", ["FE","NI"], [0.66, 0.15]], ["SIGMA",["FE","NI"],[null, null]]],
+	[["FCC_A1", ["FE","NI"], [0.63,0.18]], ["SIGMA", ["FE","NI"],[null, null]]],
+	[["FCC_A1", ["FE","NI"], [0.60, 0.20]], ["SIGMA",["FE","NI"],[null, null]]],
+	[["FCC_A1", ["FE","NI"], [0.57,0.22]], ["SIGMA", ["FE","NI"],[null, null]]],
+	[["FCC_A1", ["FE","NI"], [0.52, 0.25]], ["SIGMA",["FE","NI"],[null, null]]],
+	[["FCC_A1", ["FE","NI"], [0.47,0.29]], ["SIGMA", ["FE","NI"],[null, null]]],
+	[["FCC_A1", ["FE","NI"], [0.41, 0.33]], ["SIGMA",["FE","NI"],[null, null]]],
+	[["FCC_A1", ["FE","NI"], [0.38,0.36]], ["SIGMA", ["FE","NI"],[null, null]]],
+	[["FCC_A1", ["FE","NI"], [0.36, 0.38]], ["SIGMA",["FE","NI"],[null, null]]],
+
+	[["FCC_A1", ["FE","NI"], [0.33, 0.40]], ["BCC_A2",["FE","NI"],[null, null]]],
+	[["FCC_A1", ["FE","NI"], [0.30,0.43]], ["BCC_A2", ["FE","NI"],[null, null]]],
+	[["FCC_A1", ["FE","NI"], [0.26, 0.45]], ["BCC_A2",["FE","NI"],[null, null]]],
+	[["FCC_A1", ["FE","NI"], [0.24,0.48]], ["BCC_A2", ["FE","NI"],[null, null]]],
+	[["FCC_A1", ["FE","NI"], [0.22, 0.49]], ["BCC_A2",["FE","NI"],[null, null]]],
+	[["FCC_A1", ["FE","NI"], [0.20,0.51]], ["BCC_A2", ["FE","NI"],[null, null]]],
+	[["FCC_A1", ["FE","NI"], [0.17, 0.52]], ["BCC_A2",["FE","NI"],[null, null]]],
+	[["FCC_A1", ["FE","NI"], [0.15,0.54]], ["BCC_A2", ["FE","NI"],[null, null]]],
+	[["FCC_A1", ["FE","NI"], [0.13, 0.57]], ["BCC_A2",["FE","NI"],[null, null]]],
+	[["FCC_A1", ["FE","NI"], [0.10, 0.59]], ["BCC_A2",["FE","NI"],[null, null]]],
+	[["FCC_A1", ["FE","NI"], [0.07,0.61]], ["BCC_A2", ["FE","NI"],[null, null]]],
+	[["FCC_A1", ["FE","NI"], [0.05, 0.63]], ["BCC_A2",["FE","NI"],[null, null]]]
+    ],
+	"reference": "Predicted, Wu et al.",
+	"comment": "Figure 9."
+}
+
+

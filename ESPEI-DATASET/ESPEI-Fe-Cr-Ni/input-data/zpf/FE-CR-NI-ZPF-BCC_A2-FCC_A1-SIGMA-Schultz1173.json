@@ -1,0 +1,22 @@
+{
+    "components": ["FE", "CR", "NI", "VA" ],
+    "phases": ["FCC_A1","BCC_A2"],
+    "conditions": {
+	"P": 101325,
+	"T": [
+			  1173,1173,1173,1173
+	]
+                  },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values":   [
+[["FCC_A1", ["FE","NI"], [0.393921213069463, 0.329701213069463]], ["BCC_A2",["FE","NI"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.293750845824878, 0.396650845824878]], ["BCC_A2",["FE","NI"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.201324641854409, 0.48062464185441]], ["BCC_A2",["FE","NI"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.0990025490377565, 0.542982549037757]], ["BCC_A2",["FE","NI"],[null, null]]]
+    ],
+	"reference": "Expt., Schultz et al.",
+	"comment": "Figure 9"
+}
+
+

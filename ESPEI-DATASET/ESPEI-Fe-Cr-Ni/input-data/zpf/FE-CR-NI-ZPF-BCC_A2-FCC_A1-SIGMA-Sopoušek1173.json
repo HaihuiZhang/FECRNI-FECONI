@@ -1,0 +1,20 @@
+{
+    "components": ["FE", "CR", "NI", "VA" ],
+    "phases": ["FCC_A1", "SIGMA"],
+    "conditions": {
+	"P": 101325,
+	"T": [
+			  1173
+	]
+                  },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values":   [
+
+[["FCC_A1", ["FE","NI"], [0.537318103682304, 0.236118103682304]], ["SIGMA",["FE","NI"],[null, null]]]
+    ],
+	"reference": "Expt., Sopoušek et al.",
+	"comment": "Figure 9."
+}
+
+

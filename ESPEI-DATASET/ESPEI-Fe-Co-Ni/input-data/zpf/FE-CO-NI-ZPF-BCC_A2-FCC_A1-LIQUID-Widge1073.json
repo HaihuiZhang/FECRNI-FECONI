@@ -1,0 +1,30 @@
+{
+  "components": ["FE", "CO", "NI", "VA" ],
+    "phases": ["BCC_A2", "FCC_A1"],
+  "conditions": {
+	  "P": [101325],
+	    "T":
+      [
+		1073,	1073,	1073,
+		1073,	1073,	1073
+      ]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":
+    [
+ 	    
+	   
+[["FCC_A1", ["FE","NI"], [0.832302690594813, 0.0866026905948126]], ["BCC_A2",["FE","NI"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.8691661199523, 0.0662861199522999]], ["BCC_A2",["FE","NI"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.932740826900935, 0.0518208269009347]], ["BCC_A2",["FE","NI"],[null, null]]],
+
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2",["FE","NI"],[0.853831775974747, 0.034531775974747]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2",["FE","NI"],[0.882067456493134, 0.0299674564931343]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2",["FE","NI"],[0.963028746332252, 0.0169487463322519]]]
+	   
+ ],
+    "reference": "Expt., Widge et al.",
+    "comment": "Digitizer"
+}
+

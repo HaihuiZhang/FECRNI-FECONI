@@ -1,0 +1,15 @@
+system:
+  phase_models: FE-CR-NI_INPUT.json
+  datasets: input-data
+mcmc:
+  iterations: 500
+  input_db: fe-cr-ni.tdb
+  chains_per_parameter: 2
+  prior:
+    name: triangular
+    loc_shift_relative: -0.5
+    scale_relative: 1.0
+output:
+  logfile: log2.txt
+  verbosity: 2
+  output_db: fe-cr-ni_mcmc.tdb

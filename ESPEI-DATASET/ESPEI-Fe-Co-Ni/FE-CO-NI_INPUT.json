@@ -1,0 +1,14 @@
+{
+  "components": ["FE", "CO", "NI", "VA"],
+   "refdata": "SGTE91",
+  "phases": {
+         "FCC_A1": {
+            "sublattice_model": [["FE", "CO", "NI"], ["VA"]],
+            "sublattice_site_ratios": [1, 1]
+         },
+         "BCC_A2": {
+            "sublattice_model": [["FE", "CO", "NI"], ["VA"]],
+            "sublattice_site_ratios": [1, 3]
+         }
+    }
+}

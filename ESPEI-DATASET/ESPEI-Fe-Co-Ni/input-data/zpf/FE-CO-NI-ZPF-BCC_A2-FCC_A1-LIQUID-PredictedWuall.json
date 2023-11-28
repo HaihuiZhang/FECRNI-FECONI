@@ -1,0 +1,90 @@
+{
+  "components": ["FE", "CO", "NI", "VA" ],
+    "phases": ["BCC_A2", "FCC_A1"],
+  "conditions": {
+	  "P": [101325],
+	    "T":
+      [
+          898, 898,898,898,
+          998, 998, 998, 998, 998, 998, 998, 998, 998, 998, 998, 998, 998, 998,
+          1073, 1073, 1073,1073, 1073, 1073,1073, 1073, 1073,1073, 1073, 1073, 1073, 1073,1073,1073, 1073, 1073,1073,
+           873, 873, 873, 873, 873, 873, 873, 873,873, 873, 873, 873, 873, 873, 873, 873,873, 873, 873, 873
+      ]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":
+    [
+ 	    
+	   
+[["FCC_A1", ["FE","NI"], [0.65, 0.26]], ["BCC_A2",["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.46,0.34]], ["BCC_A2", ["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.32, 0.33]], ["BCC_A2",["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.24,0.27]], ["BCC_A2", ["FE","CO"],[null, null]]],
+
+[["FCC_A1", ["FE","NI"], [0.88, 0.08]], ["BCC_A2",["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.68,0.18]], ["BCC_A2", ["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.53, 0.22]], ["BCC_A2",["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.38,0.23]], ["BCC_A2", ["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.28, 0.20]], ["BCC_A2",["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.21,0.13]], ["BCC_A2", ["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.17, 0.05]], ["BCC_A2",["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.15,0]], ["BCC_A2", ["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2", ["FE","CO"],[0.83, 0.14]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2", ["FE","CO"],[0.74, 0.21]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2", ["FE","CO"],[0.64, 0.31]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2", ["FE","CO"],[0.53, 0.42]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2", ["FE","CO"],[0.44, 0.51]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2", ["FE","CO"],[0.36, 0.60]]],
+
+
+[["FCC_A1", ["FE","NI"], [0.92, 0.04]], ["BCC_A2",["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.82,0.07]], ["BCC_A2", ["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.71, 0.10]], ["BCC_A2",["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.59,0.14]], ["BCC_A2", ["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.52, 0.16]], ["BCC_A2",["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.43,0.16]], ["BCC_A2", ["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.36, 0.15]], ["BCC_A2",["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.29,0.13]], ["BCC_A2", ["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.24, 0.1]], ["BCC_A2",["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.20,0.06]], ["BCC_A2", ["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.17,0.02]], ["BCC_A2", ["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2", ["FE","CO"],[0.90, 0.08]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2", ["FE","CO"],[0.83, 0.13]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2", ["FE","CO"],[0.75, 0.21]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2", ["FE","CO"],[0.67, 0.28]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2", ["FE","CO"],[0.56, 0.39]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2", ["FE","CO"],[0.47, 0.48]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2", ["FE","CO"],[0.36, 0.61]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2", ["FE","CO"],[0.31, 0.66]]],
+
+
+[["FCC_A1", ["FE","NI"], [0.79, 0.19]], ["BCC_A2",["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.70,0.24]], ["BCC_A2", ["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.58, 0.31]], ["BCC_A2",["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.46,0.36]], ["BCC_A2", ["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.39, 0.37]], ["BCC_A2",["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.32,0.38]], ["BCC_A2", ["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.26, 0.32]], ["BCC_A2",["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.22,0.25]], ["BCC_A2", ["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.17, 0.16]], ["BCC_A2",["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.14,0.07]], ["BCC_A2", ["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [0.12,0.02]], ["BCC_A2", ["FE","CO"],[null, null]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2", ["FE","CO"],[0.91, 0.03]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2", ["FE","CO"],[0.80, 0.13]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2", ["FE","CO"],[0.67, 0.27]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2", ["FE","CO"],[0.56, 0.38]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2", ["FE","CO"],[0.48, 0.46]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2", ["FE","CO"],[0.42, 0.52]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2", ["FE","CO"],[0.36, 0.59]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2", ["FE","CO"],[0.31, 0.66]]],
+[["FCC_A1", ["FE","NI"], [null, null]], ["BCC_A2", ["FE","CO"],[0.26, 0.73]]]
+
+
+
+	   
+ ],
+    "reference": "Predicted, Wuall et al.",
+    "comment": "Figure"
+}
+
